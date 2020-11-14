@@ -27,7 +27,7 @@ Figure 1. Magnetization as a function of applied field.
 ### 3. Data Source
 The dataset that we would be considering for our project proposal is from Kaggle website. Here the real tornado activity data is captured between 1950 to 2015 and contains 60,115 records. This data set is created by the National Weather Service and it helps us to understand the various characteristics of the storm, tornadoes such as the various indicators which are responsible for damage and cause financial loss to the geographical location, weather conditions, wind speed and also about the width of each tornado.\ 
 The data is available in CSV format. The link to the dataset https://www.kaggle.com/jtennis/spctornado. The dataset contains the following attributes\
-1. Number of rows:  60,115 records\
+1. Number of rows:  60,115 records \
 
 2. Features
 * Date and Time 
@@ -40,43 +40,54 @@ The data is available in CSV format. The link to the dataset https://www.kaggle.
 * Length and Width 
 
 
-Cleansing the data 
-We used Excel spreadsheets for the purpose of data cleansing. The inbuilt functionality of excel was used to modify the column attributes and remove the unnecessary column attributes. Following modifications were made in the dataset in the excel sheets.
-The codes in the loss column were replaced with the actual loss values as per the information which was given in the metadata information
-The codes which were given for the time zone in the dataset was replaced with the actual timezone values as per the information in the metadata
+### 4. Data Wrangling
 
-To avoid any kind of ambiguity and confusion we removed some of thecolumn attributes which were not being used for any kind of visualization or analysis purpose.Some of these column attributes are FC,State Number, State FIPS code.
+1. We used Excel spreadsheets for the purpose of data cleansing. The inbuilt functionality of excel was used to modify the column attributes and remove the unnecessary column attributes. \
+Following modifications were made in the dataset in the excel sheets.
+2. The codes in the loss column were replaced with the actual loss values as per the information which was given in the metadata information
+3. The codes which were given for the time zone in the dataset was replaced with the actual timezone values as per the information in the metadata
 
-Visualization of the data set 
-We utilized this  preprocessed  data to generate data that can be used for further processing which helped us to analyze the data set by using Tableau, ESRI ArcMaps and Power BI and study the relationships between geography of the state, width of the tornados, magnitude, the fatalities, injuries, crop loss versus year . We then validated  the effectiveness of our findings by comparing the predictions with the recent tornados and financial losses that we obtained from the wiki
+4. To avoid any kind of ambiguity and confusion we removed some of thecolumn attributes which were not being used for any kind of visualization or analysis purpose.Some of these column attributes are FC,State Number, State FIPS code.
+
+### 5. Exploratory Data Analysis
+Following tools were used for the purpose of EDA
+* Tableau
+* ESRI ArcMaps
+* Microsoft Power BI
+We utilized this  preprocessed  data to generate data that can be used for further processing which helped us to analyze the data set and study the 
+**relationships between geography of the state, width of the tornados, magnitude, the fatalities, injuries, crop loss versus year**. \
+We then validated  the effectiveness of our findings by comparing the predictions with the recent tornados and financial losses that we obtained from the Wikipedia
+
+![GitHub Logo](/images/Page-3-Image-2.jpg)
+Figure 2. Crop Loss Year over Year
+
+![GitHub Logo](/images/Page-4-Image-3.jpg)
+Figure 3. Fatalities breakdown bye Year
+
+![GitHub Logo](/images/Page-4-Image-4.jpg)
+Figure 4. Overall Loss by Year
+
+![GitHub Logo](/images/Page-5-Image-5.jpg)
+Figure 5. Injuries by Year
+
+![GitHub Logo](/images/Page-5-Image-6.jpg)
+Figure 6. Alternative Fatalities Year over Year Progression
+
+![GitHub Logo](/images/Page-6-Image-7.jpg)
+Figure 7. Count of magnitude by State & Count of Fatalities & Injuries by State
 
 
+### 6. Insights
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Analysis from the visualization
-
-We analyzed the magnitude of the tornadoes on a yearly basis based on the Fujita scale of magnitude and found out that most of the tornadoes which were destructive had a magnitude between 5 and 6.
+1. We analyzed the magnitude of the tornadoes on a yearly basis based on the Fujita scale of magnitude and found out that most of the tornadoes which were 
+2. destructive had a magnitude between 5 and 6.
 The fatalities caused due to the tornadoes on a yearly basis was also determined using the resulting graphs from the visualizations from Tableau and PowerBI
 The injuries according to the year was also represented in the graphs.
 The crop loss according to the year and  by state was represented in the line chart.
 
 Perform data cleansing on the data set, analyzing the attributes and remove fields whi	
 	
-IV   RESULTS
+### 7.  Results
 According to the analysis conducted from the visualizations from the charts we obtained from tableau and powerBI, we see that 2011 was the year when USA  experienced the deadliest tornadoes.
 We also see that records for highest number of fatalities, injuries and crop loss was in the same year.
 From the line chart we observe that Alabama and neighboring states were adversely affected by the tornado.
@@ -84,18 +95,17 @@ From the visualizations of PowerBI we observe some relationship between the attr
 As the length of the tornado increases, magnitude also increases and they are directly related
 As the width of the tornado increases, magnitude decreases and hence they are inversely related.
 
-Anticipated Outputs:
+### 8. Anticipated Outputs:
 A webpage which contains the video of analysis and predictions of financial impact and magnitude of tornadoes as they pass over each state, the relationships and graphs based on our analysis output displayed using D3.js, Google charts, and Tableau.
 Anticipated Limitations:
 The loss information in the data set for the older years around 1950 might not be very accurate and also it would be difficult to consider the data for all the given years within the given time frame, hence we would be considering only those years which had witnessed major tornadoes and impact considerable number of states.
 ARCMAP
 
  
- 
-V   summary
-             Vi   CONCLUSION
 
-            Vii   FUTURE WORK
+ 
+
+### 9.Future Work
 
 We intend to work on this prediction model using classification algorithms in Weka and using python which can predict patterns for future and to build a real time system which fetches data dynamically on a daily basis from National Weather Service and Storm Prediction center and generates the results.
 
