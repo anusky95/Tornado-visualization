@@ -24,19 +24,20 @@ Figure 1. Magnetization as a function of applied field.
 
 
 
-III   methodology AND DATASETS
-The dataset that we would be considering for our project proposal is from Kaggle website. Here the real tornado activity data is captured between 1950 to 2015 and contains 60,115 records. This data set is created by the National Weather Service and it helps us to understand the various characteristics of the storm, tornadoes such as the various indicators which are responsible for damage and cause financial loss to the geographical location, weather conditions, wind speed and also about the width of each tornado. The data is available in CSV format. The link to the dataset https://www.kaggle.com/jtennis/spctornado.
-The dataset contains the following attributes
+### 3. Data Source
+The dataset that we would be considering for our project proposal is from Kaggle website. Here the real tornado activity data is captured between 1950 to 2015 and contains 60,115 records. This data set is created by the National Weather Service and it helps us to understand the various characteristics of the storm, tornadoes such as the various indicators which are responsible for damage and cause financial loss to the geographical location, weather conditions, wind speed and also about the width of each tornado.\ 
+The data is available in CSV format. The link to the dataset https://www.kaggle.com/jtennis/spctornado. The dataset contains the following attributes\
+1. Number of rows:  60,115 records\
 
-The dataset “Storm Prediction Center” is obtained from Kaggle website and contains 60,115 recor
-Date and Time 
-State and State Number
-Magnitude 
-Injuries
-Fatalities
-Financial loss and Crop loss
-Latitude and Longitude
-Length and Width 
+2. Features
+* Date and Time 
+* State and State Number
+* Magnitude 
+* Injuries
+* Fatalities
+* Financial loss and Crop loss
+* Latitude and Longitude
+* Length and Width 
 
 
 Cleansing the data 
