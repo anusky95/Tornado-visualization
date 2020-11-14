@@ -5,12 +5,14 @@
 ### Abstract-
 The effects of global warming have resulted in drastic changes to  the climate of Earth and every year the number of natural  calamities such as tornadoes, drought, floods has been constantly increasing The extreme weather conditions always result in huge financial  and human losses Natural disasters have resulted in $145 billion in losses for the past decade alone
 
-1. Problem description
+### 1. PROBLEM
+
 In the present world, the effects of global warming have resulted in drastic changes to the climate of Earth and every year the number of natural calamities such as tornadoes, drought, floods has been constantly increasing. Although we have many existing systems to predict such calamities, these extreme weather conditions always result in huge financial and human losses [4]. For instance, the recent natural disaster, storm Stella which affected the east coast and Midwest regions of USA brought a major drag to US GDP growth. These natural disasters have resulted in $145 billion in losses for the past decade alone. Tornadoes have been ranked as the third largest disaster in causing largest financial losses behind floods and hurricanes during the past 25 years [1]. Hence in this project, we would be analyzing the financial impact of tornadoes.
+
 With the advent of visual analytics tools and with proper data sets obtained from the government website, the effectiveness of tornado warnings has significantly improved [2]. We are focusing on how Geographic Information Systems (GIS) could be effectively used to study the behavior of tornadoes and the resultant financial losses in any given state. We would be able to identify patterns and relationships by analyzing some of the key parameters of the state geography and tornado characteristics using ArcGIS tool [3], in particular how the magnitude, hail inches and wind speed of tornadoes have a direct impact on the financial loss of a state. We aim to understand the geography covered by the tornadoes, the infrastructure and agricultural damages caused by it [5] and to make intelligent predictions on financial losses and magnitude of tornadoes.
 
 
-2. OBJECTIVES
+### 2. OBJECTIVES
 	1. Identify the relationship between the width of the tornadoes based on the distance traveled and the magnitude of the tornadoes.
 	2. Explore the pattern between the geographic location covered by the tornadoes based on their type such terrain, oceanic regions etc., and how do it affect the magnitude of the tornadoes.
 	3. Predict the pattern between the wind speed at a geographic location and the financial losses incurred by it over a period of time.
